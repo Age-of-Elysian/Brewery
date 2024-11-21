@@ -150,6 +150,7 @@ public class BSealer implements InventoryHolder {
 		recipe.setIngredient('b', Material.GLASS_BOTTLE);
 		recipe.setIngredient('w', new RecipeChoice.MaterialChoice(Tag.PLANKS));
 
+		P.p.getServer().removeRecipe(recipe.getKey());
 		P.p.getServer().addRecipe(recipe);
 	}
 

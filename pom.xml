@@ -4,7 +4,7 @@
 
 	<groupId>com.dre</groupId>
 	<artifactId>Brewery</artifactId>
-	<version>3.1.1</version>
+	<version>3.1.2</version>
 	<name>Brewery</name>
 
 	<properties>
@@ -97,8 +97,8 @@
 	</build>
 	<repositories>
 		<repository>
-			<id>md_5-public</id>
-			<url>https://repo.md-5.net/content/groups/public/</url>
+			<id>md_5-repo</id>
+			<url>https://repo.md-5.net/service/rest/repository/browse/public/</url>
 		</repository>
 		<repository>
 			<id>spigot-repo</id>
@@ -139,8 +139,8 @@
 		</repository>
 		<repository>
 			<!-- Shopkeepers -->
-			<id>Lichtspiele</id>
-			<url>https://nexus.lichtspiele.org/repository/releases/</url>
+			<id>shopkeepers-repo</id>
+			<url>https://repo.projectshard.dev/repository/releases/</url>
 		</repository>
 
 	</repositories>
@@ -149,7 +149,7 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
-			<version>1.20.2-R0.1-SNAPSHOT</version>
+			<version>1.21.3-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 			<exclusions>
 				<exclusion>
@@ -296,7 +296,7 @@
 			<!-- https://www.spigotmc.org/resources/towny-advanced.72694/history -->
 			<groupId>com.github.TownyAdvanced</groupId>
 			<artifactId>Towny</artifactId>
-			<version>0.100.0.0</version>
+			<version>0.100.4.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
